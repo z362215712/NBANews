@@ -1,0 +1,14 @@
+{
+    "name": "zhiboba",
+    "allowed_domains": "http://news.qq.com/",
+    "start_url": "https://news.zhibo8.cc/nba/",
+    "xpath": {
+        "link_list":"//div[@class='topleftbox']/*/a/@href",
+        "title": "//div[@class='title']/h1/text()",
+        "source":"//span[@ms-controller='title_controller']/a[@target='_blank']/text()",
+        "publishtime": "//span[@ms-controller='title_controller']/text()",
+        "content":"//div[@class='content']/p[@style='text-indent:2em;']/text()",
+        "cover":"//div[@class='content']/p/img/@src"
+    }
+}
+

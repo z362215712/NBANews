@@ -1,0 +1,13 @@
+{
+    "name": "zhiboba",
+    "allowed_domains": "http://news.qq.com/",
+    "start_url": "http://china.nba.com/news/",
+    "xpath": {
+        "link_list":"//div[@class='news-wrap']/a/@href",
+        "title": "//h1/text()",
+        "source":"//span[@bosszone='jgname']/text()",
+        "publishtime": "//span[@class='article-time']/text()",
+        "content":"//p[@style='TEXT-INDENT: 2em']/text()",
+        "cover":"//p[@align='center']/img/@src"
+    }
+}

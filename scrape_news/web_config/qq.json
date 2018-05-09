@@ -1,0 +1,13 @@
+{
+  "name": "qq",
+  "allowed_domains": "http://sports.qq.com/nba/",
+  "start_url": "http://sports.qq.com/nba/",
+  "xpath": {
+    "link_list": "//ul[@area_id='hnewslistc_227']/li/a[contains(@href,'http://sports.qq.com/a')]/@href",
+    "title": "//div[@class='hd']/h1/text()",
+    "source": "//span[@class='a_source']/a/text()",
+    "publishtime": "//span[@class='a_time']/text()",
+    "content": "//div[@id='Cnt-Main-Article-QQ']/p[@class='text']/text()",
+    "cover": "//div[@id='Cnt-Main-Article-QQ']/p/img/@src"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "mongo_url":"localhost",
+  "mongo_datebase":"news",
+  "port":27017
+}
