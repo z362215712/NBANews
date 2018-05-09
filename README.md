@@ -1,0 +1,1 @@
+需要在pool和scrape的setting里分别设置mongodb和redis的用户名密码端口地址才可以正常运行
